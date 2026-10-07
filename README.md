@@ -43,21 +43,22 @@ Commit message:
 ## Iteration 3
 
 Final behavior:
--
+- The final version returns the largest integer in the array.
+- If the array is empty, the method returns `Integer.MIN_VALUE`.
 
 What was fixed:
--
+- I added a check for an empty array before the program tries to access `values[0]`.
+- This prevents an error when the array has no elements.
 
-What you learned:
--
+What I learned:
+- I learned that edge cases are important when writing and testing code.
+- I also learned how JUnit testing and multiple iterations can help improve a program.
 
 Commit message:
--
-
----
+- Iteration 3: final version passing all tests---
 
 ## Final Reflection
 
-- How did AI responses change across prompts?
-- How did testing affect your changes?
-- What did version control help you understand?
+This lab showed me how AI, testing, and Git can work together during software development. The first version of the program compiled and ran, but it did not actually solve the intended problem. The second version improved the method by finding the largest number in the array, but it still had an issue with empty arrays.
+
+In the final version, I added a check for an empty array so the method returns `Integer.MIN_VALUE`. This fixed the remaining issue. I learned that AI-generated code still needs to be tested, and that JUnit tests are useful for finding errors and edge cases. I also learned how Git commits can be used to track different versions of a program.
