@@ -62,3 +62,4 @@ Commit message:
 This lab showed me how AI, testing, and Git can work together during software development. The first version of the program compiled and ran, but it did not actually solve the intended problem. The second version improved the method by finding the largest number in the array, but it still had an issue with empty arrays.
 
 In the final version, I added a check for an empty array so the method returns `Integer.MIN_VALUE`. This fixed the remaining issue. I learned that AI-generated code still needs to be tested, and that JUnit tests are useful for finding errors and edge cases. I also learned how Git commits can be used to track different versions of a program.
+Lab setup completed.
