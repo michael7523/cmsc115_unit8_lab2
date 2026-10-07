@@ -26,16 +26,17 @@ Commit message:
 ## Iteration 2
 
 What changed:
--
+- The `findResult` method was changed so that it now checks the values in the array and finds the largest integer.
 
 What improved:
--
+- The program now correctly returns the largest number in the sample array.
+- For the array `{3, 7, 2, 9, 4}`, the program returned `9`.
 
 What still failed and why:
--
+- The method would still fail if the array were empty because it tries to access `values[0]`, but an empty array has no element at index 0.
 
 Commit message:
--
+- Iteration 2: largest value implementation
 
 ---
 
